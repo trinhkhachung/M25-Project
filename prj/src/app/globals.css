@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.admin-page {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.admin-container {
+  display: flex;
+}
+
+.admin-menu {
+  width: 250px;
+  background-color: #2c3e50;
+  padding: 20px;
+}
+
+.admin-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-menu ul li {
+  margin-bottom: 15px;
+}
+
+.admin-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-menu ul li a:hover {
+  background-color: #34495e;
+}
+
+.admin-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.phone-management {
+  margin-top: 20px;
+}
+
+.phone-search input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.phone-search button {
+  padding: 8px 16px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.phone-search button:hover {
+  background-color: #34495e;
+}
+
+.phone-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.phone-table th, .phone-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.phone-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.phone-table td button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.phone-table td button:hover {
+  background-color: #c0392b;
+}
+.phone-table img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.phone-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+/*admin login*/
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+  /*register*/
+  .register-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .register-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-container label {
+    margin-bottom: 10px;
+  }
+  
+  .register-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .register-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-container button:hover {
+    background-color: #0056b3;
+  }
+  /*user manager*/
+  /* Container for the entire page */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Styling for the search input */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Styling for the user list */
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling for each user item */
+.user-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.user-item:hover {
+  background-color: #e9e9e9;
+}
+
+/* Styling for user details */
+.user-details {
+  margin-bottom: 10px;
+}
+
+.user-details div {
+  margin-bottom: 5px;
+}
+
+/* Styling for the block/unblock button */
+.block-toggle-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.block-toggle-button.block {
+  background-color: #f44336; /* Red for block */
+}
+
+.block-toggle-button.unblock {
+  background-color: #4caf50; /* Green for unblock */
+}
+
+.block-toggle-button:hover {
+  opacity: 0.8;
+}

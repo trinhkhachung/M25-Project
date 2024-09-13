@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": "123 Main St",
+      "blocked": true
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "address": "456 Elm St",
+      "blocked": true
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "address": "789 Maple Ave",
+      "blocked": false
+    }
+  ],
+  "products": []
+}
